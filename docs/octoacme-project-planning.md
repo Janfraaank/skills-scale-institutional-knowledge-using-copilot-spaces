@@ -3,6 +3,11 @@
 ## Purpose
 Turn an approved initiative into an actionable plan and backlog for delivery.
 
+> **Related docs:**
+> - Role definitions: [`octoacme-roles-and-personas.md`](./octoacme-roles-and-personas.md)
+> - RACI / Ownership matrix: [`octoacme-raci-ownership-matrix.md`](./octoacme-raci-ownership-matrix.md)
+> - Planning → Execution handoff checklist: [`octoacme-phase-handoff-checklist.md`](./octoacme-phase-handoff-checklist.md)
+
 ## Objectives
 - Break work into shippable increments
 - Identify dependencies and risks
@@ -22,7 +27,8 @@ Turn an approved initiative into an actionable plan and backlog for delivery.
 - Acceptance criteria:
 - Priority:
 - Estimate:
-- Owner:
+- Owner: _(role responsible for delivery — see [`octoacme-roles-and-personas.md`](./octoacme-roles-and-personas.md))_
+- Accountable: _(role that signs off on completion — see RACI in [`octoacme-raci-ownership-matrix.md`](./octoacme-raci-ownership-matrix.md))_
 - Related docs/links:
 
 ## Sprint / Iteration Planning
@@ -41,3 +47,5 @@ Turn an approved initiative into an actionable plan and backlog for delivery.
 - [ ] Release timeline and milestones agreed
 - [ ] Definition of Done documented
 - [ ] Initial test plan / QA approach drafted
+- [ ] RACI matrix finalized and distributed: [`octoacme-raci-ownership-matrix.md`](./octoacme-raci-ownership-matrix.md)
+- [ ] Phase handoff checklist signed off before moving to Execution: [`octoacme-phase-handoff-checklist.md`](./octoacme-phase-handoff-checklist.md)
