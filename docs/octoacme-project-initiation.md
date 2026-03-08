@@ -3,6 +3,11 @@
 ## Purpose
 Define the initial steps to validate and authorize work, align stakeholders, and create a lightweight plan.
 
+> **Related docs:**
+> - Role definitions: [`octoacme-roles-and-personas.md`](./octoacme-roles-and-personas.md)
+> - Ownership matrix template: [`octoacme-raci-ownership-matrix.md`](./octoacme-raci-ownership-matrix.md)
+> - Initiation → Planning handoff checklist: [`octoacme-phase-handoff-checklist.md`](./octoacme-phase-handoff-checklist.md)
+
 ## When to use
 Whenever a new project idea or feature proposal is ready to be explored.
 
@@ -27,7 +32,7 @@ Whenever a new project idea or feature proposal is ready to be explored.
 - Primary stakeholders:
 - Suggested timeline / milestones:
 - Quick risks & dependencies:
-- Proposed team / roles:
+- Proposed team / roles: _(see [`octoacme-roles-and-personas.md`](./octoacme-roles-and-personas.md) for role descriptions; draft initial RACI in [`octoacme-raci-ownership-matrix.md`](./octoacme-raci-ownership-matrix.md))_
 
 ## Initiation Checklist
 - [ ] One-pager completed and reviewed by Product Lead
@@ -35,6 +40,8 @@ Whenever a new project idea or feature proposal is ready to be explored.
 - [ ] Decision: Approve to move into planning?
 - [ ] Create repo or project board skeleton
 - [ ] Add initial artifacts to repo (docs/ or .copilot/)
+- [ ] RACI matrix drafted using [`octoacme-raci-ownership-matrix.md`](./octoacme-raci-ownership-matrix.md)
+- [ ] Phase handoff checklist signed off before moving to Planning: [`octoacme-phase-handoff-checklist.md`](./octoacme-phase-handoff-checklist.md)
 
 ## Decision Gate
 Move to planning when:

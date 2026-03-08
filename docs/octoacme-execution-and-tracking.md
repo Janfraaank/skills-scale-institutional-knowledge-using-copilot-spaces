@@ -3,6 +3,11 @@
 ## Purpose
 Guidance for managing day-to-day execution and tracking progress toward project milestones.
 
+> **Related docs:**
+> - Role definitions: [`octoacme-roles-and-personas.md`](./octoacme-roles-and-personas.md)
+> - RACI / Ownership matrix: [`octoacme-raci-ownership-matrix.md`](./octoacme-raci-ownership-matrix.md)
+> - Execution → Release handoff checklist: [`octoacme-phase-handoff-checklist.md`](./octoacme-phase-handoff-checklist.md)
+
 ## Team Rhythm
 - Daily standups (15 min) — focus on progress, blockers, dependencies
 - Weekly delivery sync — show progress, updates, and flagged risks
@@ -29,12 +34,15 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - Use dashboards for key signals (errors, latency, usage)
 
 ## Blocker Escalation
-- Level 1: Team-level triage in daily standup
-- Level 2: PM escalates to Product Lead and dependent teams
-- Level 3: Sponsor-level escalation for business-impacting issues
+- Level 1: Team-level triage in daily standup — **Developer** surfaces blocker; **Project Manager** facilitates resolution
+- Level 2: **Project Manager** escalates to **Product Manager** and dependent teams; **Release Manager** or **DevOps / Platform Engineer** engaged when the blocker affects a release window or production environment
+- Level 3: Sponsor-level escalation for business-impacting issues — **Project Manager** owns communication to sponsor/stakeholders
+
+> For a full escalation ownership reference, see [`octoacme-raci-ownership-matrix.md`](./octoacme-raci-ownership-matrix.md#escalation-ownership-quick-reference).
 
 ## Execution Checklist
 - [ ] Branching and PR conventions documented in repo
 - [ ] CI configured for tests and lint
 - [ ] Regular demos scheduled
 - [ ] Risk register updated weekly
+- [ ] Phase handoff checklist completed before handing off to Release: [`octoacme-phase-handoff-checklist.md`](./octoacme-phase-handoff-checklist.md)
